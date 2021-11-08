@@ -41,7 +41,7 @@ IndentRequires: false
 IndentWidth: 4
 IndentWrappedFunctionNames: false
 KeepEmptyLinesAtTheStartOfBlocks: false
-NamespaceIndentation: All
+NamespaceIndentation: None
 PointerAlignment: Left
 SortUsingDeclarations: true
 SpaceAfterCStyleCast: false
