@@ -21,7 +21,24 @@ AlwaysBreakTemplateDeclarations: No
 BinPackArguments: true
 BinPackParameters: true
 BitFieldColonSpacing: Both
-BreakBeforeBraces: Stroustrup
+BreakBeforeBraces: Custom
+BraceWrapping:
+  AfterCaseLabel: false
+  AfterClass: false
+  AfterFunction: true
+  AfterControlStatement: false
+  SplitEmptyFunction: false
+  AfterEnum: false
+  AfterNamespace: false
+  AfterStruct: false
+  AfterUnion: false
+  AfterExternBlock: false
+  BeforeCatch: true
+  BeforeElse: true
+  BeforeLambdaBody: false
+  BeforeWhile: true
+  SplitEmptyRecord: false
+  SplitEmptyNamespace: false
 BreakBeforeBinaryOperators: All
 BreakBeforeConceptDeclarations: false
 BreakBeforeTernaryOperators: true
@@ -33,7 +50,7 @@ CompactNamespaces: false
 Cpp11BracedListStyle: true
 DerivePointerAlignment: false
 EmptyLineBeforeAccessModifier: Never
-FixNamespaceComments: false
+FixNamespaceComments: true
 IncludeBlocks: Merge
 IndentCaseLabels: false
 IndentExternBlock: Indent
